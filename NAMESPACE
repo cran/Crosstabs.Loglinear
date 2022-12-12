@@ -1,0 +1,8 @@
+export(CROSSTABS, LOGLINEAR)
+
+importFrom("stats", anova, coef, chisq.test, cov.wt, fisher.test, fitted,
+             glm, mcnemar.test, pchisq, pnorm, poisson, resid,
+              residuals, terms.formula, xtabs, na.omit, as.formula)
+             
+importFrom("utils", combn, head, packageDescription)
+
